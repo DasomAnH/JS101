@@ -7,4 +7,5 @@ function hello(name) {
 }
 
 hello('dasom');
+hello('JJ');
 hello();
