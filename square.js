@@ -1,6 +1,6 @@
-function printSquare(num) {
-  for (let i = 0; i < num; i++) {
-    console.log('🍙'.repeat(num));
+function printSquare(size) {
+  for (let i = size; i >= 1; i--) {
+    console.log('💻'.repeat(size));
   }
 }
 

@@ -9,6 +9,8 @@ function printNumber(start, end) {
   while (num <= end) {
     console.log(num);
     num++;
+    // num = num + 1;
+    // num += 1;
   }
 }
 
