@@ -1,9 +1,15 @@
-let num = 1;
-while (num <= 10) {
-  console.log(num);
-  num++;
+function printNumber(start, end) {
+  for (let num = start; num <= end; num++) {
+    console.log(num);
+  }
 }
 
-for (num = 1; num <= 10; num++) {
-  console.log(num);
+function printNumber(start, end) {
+  let num = start;
+  while (num <= end) {
+    console.log(num);
+    num++;
+  }
 }
+
+printNumber(1, 10);
